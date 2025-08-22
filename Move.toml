@@ -1,0 +1,15 @@
+[package]
+name = "Medical-Bill-Verification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MedicalVerifier = "0x1053083feb667e7cc4340adf54653677fef3316ed90cf76cc7feeecc7b355ad8"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
